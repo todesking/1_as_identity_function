@@ -15,5 +15,8 @@ describe '1_as_identity_function' do
   end
 
   describe 'Other Fixnum instances' do
+    subject { 2 }
+    it { should_not be_respond_to(:to_proc) }
+    it { expect { subject.to_proc }.to raise_error(NoMethodError) }
   end
 end
