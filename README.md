@@ -1,6 +1,6 @@
-# 1AsIdentityFunction
+# 1\_as\_identity\_function
 
-TODO: Write a gem description
+`1.to_proc` returns `lambda {|x| x}`
 
 ## Installation
 
@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+[1, 2, 3].map(&1)
+=> [1, 2, 3]
+```
+
+Yeah.
 
 ## Contributing
 
