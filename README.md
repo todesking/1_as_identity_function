@@ -35,6 +35,10 @@ Yeah.
 
 ## Changes
 
+### 1.0.1
+
+* Add homepage url to gemspec.
+
 ### 1.0.0
 
 * initial release
